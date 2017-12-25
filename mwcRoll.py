@@ -31,7 +31,7 @@ print ('Class \t\t: ',rndClass())
 print ('Birthsign \t: ', rndSign())
 fac2 = 'Mages Guild'
 fac1 = 'House Telvanni'
-while (fac1, fac2) == ('House Telvanni','Mages Guild'):
+while (fac1, fac2) == ('House Telvanni','Mages Guild') or fac1 == fac2:
  fac1 = rndFaction()
  fac2 = rndFaction()
 print('Faction 1 \t: ',fac1)
